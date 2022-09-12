@@ -1,0 +1,157 @@
+@font-face {
+    font-family: fa;
+    src: url(../../../public/font/IRANSans.ttf) format('truetype')
+}
+
+
+.formBase {
+    background-color: #f8f8f8;
+    font-family: fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding-top: 80px;
+}
+
+.titles {
+    font-family: fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+    border-bottom: none;
+    position: relative;
+    background-color: white;
+}
+
+.titles>div {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    transition: 00.5s;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.login>* {
+    margin: 15px 40px;
+    height: 30px;
+}
+
+.inputForm {
+
+    position: relative;
+}
+
+.inputForm>input {
+    width: 100%;
+    height: 100%;
+    text-indent: 30px;
+    font-family: fa;
+}
+
+.inputForm>.icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btnsign {
+    background-color: rgba(239, 88, 18, 0.855);
+    border: none;
+    color: white;
+    height: 40px;
+    cursor: pointer;
+}
+
+.loginTitle {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.registerTitle {
+    padding-bottom: 10px;
+    cursor: pointer;
+
+}
+
+.registerButtom {
+    transform: translateX(-180%);
+}
+
+.borderButtom {
+    border-bottom: 3px solid rgba(239, 88, 18, 0.855);
+    position: absolute;
+    width: 50%;
+    left: 0px;
+    bottom: 10px;
+    transition: 0.5s;
+}
+
+.borderButtomRegister {
+    transform: translateX(100%);
+}
+
+.hideBottom {
+    border-bottom: none !important;
+}
+
+.mainForm {
+    width: 30%;
+    border-top: none;
+    overflow: hidden;
+    max-height: 400px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 25px #e5e5e5;
+
+}
+
+.register.hideForm {
+    transform: translateX(-100%) translateY(-100%)
+}
+
+.hideForm {
+    transform: translateX(-100%);
+}
+
+.register {
+    transform: translateY(-100%);
+    margin-top: 130px;
+}
+
+.inputForm img {
+    width: 50px;
+    height: 50px;
+}
+
+.inputForm.file {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputForm.file>input {
+    transform: translateY(10px);
+}
+
+@media screen and (max-width:600px) {
+    .titles {
+        width: 90%;
+    }
+
+    .mainForm {
+        width: 90%;
+    }
+}

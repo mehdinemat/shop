@@ -1,0 +1,63 @@
+.paymentBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.checkOutSteps{
+    width: 100%;
+}
+.paymentContainer{
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px ;
+    margin: 10px 0px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 25px #e5e5e5;
+    padding: 20px;
+}
+.paymentContainer > *{
+    width: 50%;
+    
+}
+.paymentContainer > * > *{
+    margin: 20px 0px ;
+}
+
+.paymentForm > * > *{
+
+}
+.paymentForm > *{
+    position: relative;
+}
+.paymentForm > * > .icon{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.numberCartElement{
+    text-indent: 40px !important;
+    
+}
+.CartElement  {
+    padding: 10px 5px 10px 25px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.btn{
+    width: 90px !important;
+}
+.paymentBox >.checkOutSteps{
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 25px #e5e5e5;
+    padding: 20px;
+}

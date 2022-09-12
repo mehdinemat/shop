@@ -1,0 +1,121 @@
+@font-face {
+    font-family: fa;
+    src: url(../../../public/font/IRANSans.ttf) format('truetype')
+}
+
+
+.mainBox{
+    font-family: fa;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.detailsUser{
+    direction: rtl;
+    padding: 60px 40px 20px 20px ;
+    margin: 5px 20px 5px 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 25px #e5e5e5;
+    
+    border-radius: 7px;
+}
+.right
+{
+    width: 100%;
+}
+.left{
+    width: 100%;
+
+}
+.bold{
+    font-weight: bold;
+}
+.subTitle{
+    color: rgba(107, 107, 107, 0.801);
+    font-size: 13px;
+}
+.detailsOrder{
+    margin: 5px 20px 5px 20px;
+    padding: 60px 40px 20px 20px ;
+    direction: rtl;
+    position: relative;
+    box-shadow: 0 0 25px #e5e5e5;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.image > img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 7px;
+}
+.image{
+    width: 100%;
+    margin-left: 20px;
+}
+.orderItem{
+    border-bottom: 1px solid rgba(218, 217, 217, 0.562);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.orderItem:last-child{
+    border-bottom: none;
+}
+.orderDetails{
+    padding: 5px;
+    width:100%
+
+}
+.orderSummary{
+    padding:20px ;
+    margin: 5px 20px 20px 20px;
+    direction: rtl;
+    position: relative;
+    box-shadow: 0 0 25px #e5e5e5;
+    background-color: white;
+    border-radius: 7px;
+    padding: 60px 40px 20px 20px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.orderSummary:first-child{
+    width: 100%;
+}
+.orderSummary:last-child{
+    height: 100%;   
+}
+.subject{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+     padding: 8px;
+     font-size: 16px;
+     font-weight: bold;
+}
+.stepCheck{
+    background-color: white;
+    padding: 20px;
+    margin: 20px 20px 5px 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 25px #e5e5e5;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+    color: rgba(239, 88, 18, 0.855) !important;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+    color: rgba(239, 88, 18, 0.855) !important;
+}
+.css-qivjh0-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+    font-family: fa;
+}

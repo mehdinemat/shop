@@ -1,0 +1,142 @@
+@font-face {
+    font-family: fa;
+    src: url(../../../public/font/IRANSans.ttf) format('truetype')
+}
+
+.container {
+    justify-content: center !important;
+}
+
+.profile {
+    background-color: white;
+    font-family: fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 25px #e5e5e5;
+    position: relative;
+}
+
+.profile>div {
+    width: 100%;
+    text-align: right;
+    padding: 50px;
+
+}
+
+.rightProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 90%;
+    margin-right: 15px;
+    direction: rtl;
+    width: 100%;
+    text-align: right;
+}
+
+.rightProfile span {
+    text-align: right !important;
+    width: 100%;
+    transform: translateX(20%);
+}
+
+.rightProfile>img {
+    width: 100px;
+}
+
+.rightProfile>* {
+    margin-bottom: 40px;
+}
+
+.rightProfile>*>* {
+    margin-top: 20px;
+}
+
+.rightProfile>button {
+    background-color: rgba(239, 88, 18, 0.855);
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 150px;
+    margin: 10px 10px;
+}
+
+.leftProfile {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    margin-left: 15px;
+    margin-top: 10px;
+    justify-content: space-between;
+    border-right: 1px solid rgba(145, 144, 144, 0.288);
+}
+
+.leftProfile>*> :not(.btn) {
+    margin: 15px 0px;
+    border-bottom: 1px solid rgba(145, 144, 144, 0.288);
+
+}
+
+.profileBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.profileBtn>button {
+    background-color: rgb(87, 87, 87);
+    border: none;
+    color: white;
+    margin: 10px 0px;
+    height: 30px;
+    width: 200px;
+
+}
+
+.title {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.subProfile {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle {
+    color: rgba(85, 84, 84, 0.677);
+}
+
+.imageProfile {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn.btnProfile  {
+    font-size: 10px;
+    text-align: center;
+    padding: 0px !important;
+    height: 40px !important;
+    border: none;
+    text-decoration: none;
+}
+
+.btnProfile:hover{
+   background-color: white !important;
+    color: rgb(146, 146, 146);
+}
+
+@media screen and (max-width:900px) {
+    .profile {
+        height: 40vh;
+    }
+}

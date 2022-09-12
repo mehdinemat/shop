@@ -1,0 +1,62 @@
+@font-face {
+    font-family: fa;
+    src: url(../../../../public/font/IRANSans.ttf) format('truetype')
+}
+
+#footer{
+    font-family: fa;
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    align-items: center;
+    background-color: rgb(104, 108, 118);
+    direction: rtl;
+}
+#footer div{
+    padding: 10px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+.right , .left , .center{
+    display: flex;
+    flex-direction: column;
+    
+}
+.right > img{
+    width: 100px;
+}
+.right > span , .left > span{
+    color: white;
+    word-wrap:break-word;
+}
+.right > * , .left > * , .center > * {
+    padding: 5px;
+}
+h1{
+    color: rgba(239, 88, 18, 0.855);
+    text-align: center;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+
+}
+.right > span{
+    text-align: center;
+    font-size: 12px;
+}
+.center p {
+    direction: ltr;
+    text-align: center;
+    color: white;
+}
+.left > span{
+    cursor: pointer;
+    transition: 0.3s;
+}
+.left > span:hover{
+    color: rgba(239, 88, 18, 0.855);
+}
