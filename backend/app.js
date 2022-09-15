@@ -13,11 +13,16 @@ const bodyParser = require('body-parser')
 
 
 
-
+    
 app.use(express.json())
 app.use(express.urlencoded({extends:true}))
 app.use(fileupload())
 app.use(cookieparser())
+
+app.get('/' , (req, res)=>{ 
+    
+ })
+
 app.use('/api/v1' ,Products )
 app.use('/api/v1' ,User )
 app.use('/api/v1' ,Order )

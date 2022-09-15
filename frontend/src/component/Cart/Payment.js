@@ -27,9 +27,11 @@ function Payment() {
     const elements = useElements()
     const dispatch = useDispatch()
 
+
     const {shippingInfo  , cartItems} = useSelector((state)=>state.cart)
     const {user} = useSelector((state)=>state.user)
     const orderInfo = JSON.parse(sessionStorage.getItem('orderInfo'))
+
 
 
     const paymentData = {
@@ -122,10 +124,14 @@ function Payment() {
             <div>
                 <HiOutlineCreditCard className='icon'/>
             <CardNumberElement className='CartElement'/>
+            
             </div>
             <div>
                 <MdOutlineCreditCardOff className='icon'/>
                 <CardExpiryElement className='CartElement'/>
+
+      
+    
             </div>
             <div>
                 <MdOutlineVpnKey className='icon'/>
