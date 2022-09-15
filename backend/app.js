@@ -20,7 +20,7 @@ app.use(fileupload())
 app.use(cookieparser())
 
 app.get('/' , (req, res)=>{ 
-    
+    res.send("salam")
  })
 
 app.use('/api/v1' ,Products )
