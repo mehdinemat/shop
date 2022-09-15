@@ -19,9 +19,9 @@ process.on('uncaughtException' , (err)=>{
 connectToDatabase()
 
 
+const port = process.env.PORT ;
 
-
-const server = app.listen(4000 , ()=>{
+const server = app.listen(port , ()=>{
     console.log("we are connect to server")
 })
 
