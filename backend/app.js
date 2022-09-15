@@ -20,10 +20,11 @@ app.use(express.urlencoded({extends:true}))
 app.use(fileupload())
 app.use(cookieparser())
 
-app.use(express.static(path.join(__dirname , "./frontend/build")))
 
-app.get('*' , (req, res)=>{ 
-    res.sendFile(path.join(__dirname , "./frontend/build/index.html") , function(err){ 
+
+app.get('/' , (req, res)=>{ 
+    app.use(express.static(path.resolve(__dirname , 'frontend' , 'build')))
+    res.sendFile(path.join(__dirname , 'frontend' , 'build' , 'index.html') , function(err){ 
         if(err){
             res.status(500).send(err)
         }
