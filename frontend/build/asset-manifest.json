@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24b6531e.css",
+    "main.js": "/static/js/main.fcf96211.js",
+    "static/media/IRANSans.ttf": "/static/media/IRANSans.b405362106aecf6bb79b.ttf",
+    "static/media/Profile.png": "/static/media/Profile.697fdcd21f6d157b9073.png",
+    "static/media/playstore.png": "/static/media/playstore.82b4831979e0ce7c733e.png",
+    "static/media/Appstore.png": "/static/media/Appstore.d0c5839937e3c36285f6.png",
+    "index.html": "/index.html",
+    "main.24b6531e.css.map": "/static/css/main.24b6531e.css.map",
+    "main.fcf96211.js.map": "/static/js/main.fcf96211.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24b6531e.css",
+    "static/js/main.fcf96211.js"
+  ]
+}
